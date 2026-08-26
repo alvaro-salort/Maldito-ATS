@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(asistente-postulaciones)",
+      "Skill(buscador-empleos)",
+      "Skill(capacitacion)",
+      "Bash(python herramientas/consulta_salarios.py:*)",
+      "Bash(python3 herramientas/consulta_salarios.py:*)",
+      "Bash(python herramientas/verificar_pdf.py:*)",
+      "Bash(python3 herramientas/verificar_pdf.py:*)",
+      "Bash(python herramientas/comparar_ofertas.py:*)",
+      "Bash(pdftotext:*)"
+    ]
+  }
+}
