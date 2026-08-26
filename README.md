@@ -126,7 +126,7 @@ Consulta la guía detallada paso a paso en [INICIO_RAPIDO.md](INICIO_RAPIDO.md).
 
 ---
 
-## Agradecimientos y Créditos
+## 💖 Agradecimientos y Créditos
 
 Este proyecto se inspiró y apoya en el trabajo de la comunidad open source:
 
