@@ -75,8 +75,8 @@ Consulta nuestra guía completa en [INICIO_RAPIDO.md](INICIO_RAPIDO.md).
 
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/tu-usuario/MalditoATS.git
-   cd MalditoATS
+   git clone https://github.com/alvaro-salort/Maldito-ATS.git
+   cd Maldito-ATS
    ```
 2. Agrega tus documentos existentes (CV actual, diplomas o export de LinkedIn) en la carpeta `documentos/`.
 3. Inicia tu asistente favorito (**OpenCode**, **Antigravity**, **Cursor** o **Claude Code**) y ejecuta:
@@ -94,6 +94,16 @@ Consulta nuestra guía completa en [INICIO_RAPIDO.md](INICIO_RAPIDO.md).
 
 ---
 
+## 💖 Agradecimientos y Créditos
+
+Este proyecto se inspiró y apoya en el trabajo de la comunidad open source:
+
+- **[Mads Lorentzen / ai-job-search](https://github.com/MadsLorentzen/ai-job-search)**: Por la idea original y la arquitectura base de flujos de postulación asistidos por IA.
+- **[Param Choudhary / ResumeSkills](https://github.com/Paramchoudhary/ResumeSkills)**: Por las metodologías de redacción de viñetas con la fórmula Google XYZ, optimización de CVs técnicos y estrategias de networking.
+
+---
+
 ## 📄 Licencia
 
 Distribuido bajo la Licencia MIT. Consulta [LICENSE](LICENSE) para más detalles.
+

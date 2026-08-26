@@ -24,8 +24,8 @@ Esta guía te ayudará a poner en marcha **Maldito ATS** en cuestión de minutos
 
 1. **Clonar y entrar al directorio:**
    ```bash
-   git clone https://github.com/tu-usuario/MalditoATS.git
-   cd MalditoATS
+   git clone https://github.com/alvaro-salort/Maldito-ATS.git
+   cd Maldito-ATS
    ```
 
 2. **Crear entorno virtual de Python e instalar dependencias auxiliares:**
