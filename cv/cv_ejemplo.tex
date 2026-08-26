@@ -1,0 +1,62 @@
+\documentclass[11pt,a4paper,sans]{moderncv}
+\moderncvstyle{banking}
+\moderncvcolor{blue}
+
+\usepackage[utf8]{inputenc}
+\usepackage[scale=0.88,top=1.5cm,bottom=1.5cm,left=1.8cm,right=1.8cm]{geometry}
+\usepackage{fontawesome5}
+\usepackage{needspace}
+
+% Datos personales
+\name{Martín}{González}
+\title{Desarrollador de Software Senior | Backend \& Cloud}
+\address{Buenos Aires, Argentina}{Remoto / Híbrido}{}
+\phone[mobile]{+54 9 11 1234-5678}
+\email{martin.gonzalez.dev@ejemplo.com}
+\social[linkedin]{martingonzalez-dev}
+\social[github]{martingonzalez-code}
+
+\begin{document}
+\makecvtitle
+\vspace{-1.5em}
+
+\section{Resumen Profesional}
+Desarrollador Backend Senior con más de 6 años de experiencia diseñando y desplegando microservicios de alto tráfico y arquitecturas distribuidas en la nube. Especialista en Python, Go y AWS, con foco en optimización de rendimiento, confiabilidad de sistemas y entrega continua.
+
+\section{Experiencia Laboral}
+
+\needspace{5\baselineskip}
+\cventry{2022 -- Presente}{Senior Backend Engineer}{Fintech Latam}{Buenos Aires (Remoto)}{}{
+\begin{itemize}
+    \item \textbf{Reduje la latencia media de las APIs transaccionales en un 42\%} (de 780ms a 450ms) en picos de tráfico de 15.000 req/s, migrando servicios críticos de Python/Django a Go y Redis.
+    \item \textbf{Lideré la integración de la nueva pasarela de pagos} para 4 países de la región, procesando más de \$3.5M USD mensuales con una tasa de éxito de transacciones del 99.95\%.
+    \item \textbf{Automaticé el pipeline de CI/CD} con GitHub Actions y Terraform en AWS ECS, reduciendo los tiempos de despliegue a producción de 40 a 7 minutos.
+\end{itemize}}
+
+\vspace{0.3em}
+\needspace{5\baselineskip}
+\cventry{2019 -- 2022}{Desarrollador Fullstack Semi-Senior}{Tech Solutions S.A.}{Buenos Aires, Argentina}{}{
+\begin{itemize}
+    \item \textbf{Diseñé e implementé la arquitectura de microservicios} en FastAPI y PostgreSQL para una plataforma SaaS B2B con más de 50.000 usuarios activos.
+    \item \textbf{Optimicé consultas y modelos de base de datos}, disminuyendo el uso de CPU de RDS PostgreSQL en un 35\% y eliminando cuellos de botella recurrentes.
+    \item \textbf{Mentoreé a 4 desarrolladores junior}, implementando revisiones de código sistemáticas y elevando la cobertura de pruebas unitarias al 88\%.
+\end{itemize}}
+
+\section{Educación}
+\cventry{2015 -- 2020}{Licenciatura en Ciencias de la Computación}{Universidad de Buenos Aires (UBA)}{Buenos Aires, Argentina}{}{}
+
+\section{Habilidades Técnicas}
+\begin{itemize}
+    \item \textbf{Lenguajes:} Python (FastAPI, Django), Go, TypeScript, SQL, Bash.
+    \item \textbf{Bases de Datos \& Caché:} PostgreSQL, MySQL, Redis, MongoDB.
+    \item \textbf{Cloud \& DevOps:} AWS (ECS, Lambda, S3, RDS, CloudWatch), Docker, Kubernetes, CI/CD, Terraform.
+    \item \textbf{Buenas Prácticas:} Microservicios, Clean Architecture, TDD, APIs RESTful, gRPC, Event-Driven.
+\end{itemize}
+
+\section{Idiomas}
+\begin{itemize}
+    \item \textbf{Español:} Nativo.
+    \item \textbf{Inglés:} B2 / Profesional Avanzado (Fluido en conversaciones técnicas y trabajo en equipos multiculturales).
+\end{itemize}
+
+\end{document}
