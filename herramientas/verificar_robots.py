@@ -17,8 +17,10 @@ import urllib.robotparser
 def verificar_acceso(url: str, user_agent: str = "*") -> bool:
     """Verifica si un User-Agent tiene permitido acceder a la URL según robots.txt."""
     parsed = urlparse(url)
-    if not parsed.scheme or not parsed.netloc:
-        print(f"Error: URL inválida: {url}", file=sys.stderr)
+    # SEGURIDAD: Validar que el esquema sea estrictamente http o https
+    # previene vulnerabilidades SSRF o lectura no deseada de recursos locales (file://, etc.)
+    if parsed.scheme.lower() not in ("http", "https") or not parsed.netloc:
+        print(f"Error: Esquema o URL no permitida/inválida: {url}", file=sys.stderr)
         return False
 
     url_robots = f"{parsed.scheme}://{parsed.netloc}/robots.txt"
