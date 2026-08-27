@@ -47,7 +47,7 @@ Framework integral de búsqueda laboral asistida por IA diseñado específicamen
 - `verificar_pdf.py`: Validador de extracción de texto y compatibilidad con parsers ATS.
 - `guardas_seguridad.py`: Protección y prevención de fugas de datos personales en `.gitignore`.
 - `validar_skills.py`: Linter de sintaxis YAML para skills portables.
-- `verificar_robots.py`: Verificación de políticas de robots.txt para scraping ético.
+- `verificar_robots.py`: Verificación de políticas de robots.txt para scraping ético con validación estricta de esquemas URL (HTTP/HTTPS) para prevenir SSRF y lectura no deseada de archivos locales.
 - `control_versiones.py`: Verificador de versiones del framework.
 
 ####  Plantillas LaTeX en Español
